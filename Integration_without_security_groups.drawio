@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T06:45:41.173Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="Pn9UsRge9_9Jc7m-Y9wb" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T06:45:53.721Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="hQ6dSLVH9Xd2xRjfJeyb" version="21.7.5" type="github">
   <diagram name="Страница — 1" id="LRi8mz9Ac1vkAMCG92qE">
     <mxGraphModel dx="2189" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
             <mxPoint x="540" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="psM9mYJrSWVJbTP8HbJ--16" value="check credentials type" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="psM9mYJrSWVJbTP8HbJ--16" value="Check credentials type" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="370" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="psM9mYJrSWVJbTP8HbJ--17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="psM9mYJrSWVJbTP8HbJ--16" target="psM9mYJrSWVJbTP8HbJ--21" edge="1">
