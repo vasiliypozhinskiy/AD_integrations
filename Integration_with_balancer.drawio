@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T12:43:19.971Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="L7QtpWzNJ8Kar5FVOYlw" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T07:00:22.656Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="MGa4sb0v_TLxT0mYfmWu" version="21.7.5" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2212" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2212" dy="1829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,13 +58,13 @@
         <mxCell id="YkcUs4L2bTsYHIqQjSH9-11" value="&lt;div&gt;Token exists&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="545" y="248" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YkcUs4L2bTsYHIqQjSH9-12" value="/agent/chat" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YkcUs4L2bTsYHIqQjSH9-12" value="/agent/chat" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="600" y="600" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YkcUs4L2bTsYHIqQjSH9-13" value="redirect" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="690" y="388" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YkcUs4L2bTsYHIqQjSH9-14" value="check header email" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YkcUs4L2bTsYHIqQjSH9-14" value="Check header email" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="117.5" y="360" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YkcUs4L2bTsYHIqQjSH9-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YkcUs4L2bTsYHIqQjSH9-14" target="YkcUs4L2bTsYHIqQjSH9-19" edge="1">
@@ -79,7 +79,7 @@
         <mxCell id="YkcUs4L2bTsYHIqQjSH9-16" value="Header not exists" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="10" y="368" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YkcUs4L2bTsYHIqQjSH9-19" value="&lt;div&gt;base_domain:base_port&lt;/div&gt;&lt;div&gt;(balancer)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YkcUs4L2bTsYHIqQjSH9-19" value="&lt;div&gt;External login service checks agent credentials&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="490" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YkcUs4L2bTsYHIqQjSH9-20" value="redirect" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -104,10 +104,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aIMz0hFZjmaTNV-yVhzp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YkcUs4L2bTsYHIqQjSH9-26" target="aIMz0hFZjmaTNV-yVhzp-2">
+        <mxCell id="aIMz0hFZjmaTNV-yVhzp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YkcUs4L2bTsYHIqQjSH9-26" target="aIMz0hFZjmaTNV-yVhzp-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YkcUs4L2bTsYHIqQjSH9-26" value="try to find agent with email" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YkcUs4L2bTsYHIqQjSH9-26" value="Try to find agent with email" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="480" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YkcUs4L2bTsYHIqQjSH9-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YkcUs4L2bTsYHIqQjSH9-14" target="YkcUs4L2bTsYHIqQjSH9-26" edge="1">
@@ -134,16 +134,16 @@
         <mxCell id="YkcUs4L2bTsYHIqQjSH9-32" value="redirect" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="190" y="498" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aIMz0hFZjmaTNV-yVhzp-1" value="&lt;div&gt;Header exists&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="aIMz0hFZjmaTNV-yVhzp-1" value="&lt;div&gt;Header exists&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="330" y="368" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aIMz0hFZjmaTNV-yVhzp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aIMz0hFZjmaTNV-yVhzp-2" target="YkcUs4L2bTsYHIqQjSH9-12">
+        <mxCell id="aIMz0hFZjmaTNV-yVhzp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aIMz0hFZjmaTNV-yVhzp-2" target="YkcUs4L2bTsYHIqQjSH9-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aIMz0hFZjmaTNV-yVhzp-2" value="&lt;div&gt;Set auth_token&lt;/div&gt;&lt;div&gt;login agent&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aIMz0hFZjmaTNV-yVhzp-2" value="&lt;div&gt;Set auth_token&lt;/div&gt;&lt;div&gt;login agent&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="610" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aIMz0hFZjmaTNV-yVhzp-7" value="redirect" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="aIMz0hFZjmaTNV-yVhzp-7" value="redirect" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="490" y="618" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
